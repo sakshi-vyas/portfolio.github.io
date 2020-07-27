@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: black;
+  color: white;
+}
+
+.fa-instagram {
+  background: black;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.i{
+border-radius:50%;
+}
+.data
+    {
+        font-family:courier new;
+font-size:18px;
+        color:black;
+       align-content:center;
+    }
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+td{
+padding: 15px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<!-- <body bgcolor="#5ED4EE "> -->
+ <body bgcolor="CCCCCC "> 
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+ <a href="AboutMe.html">About Me</a>
+  <a href="MyWork.html">My Work</a>
+  <a href="contact.html">Contact</a>
+</div>
+<table  >
+<tr><td><span style="align=right;font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span></td></tr>
+</table>
+
+<!--
+<div id="main">
+  <h2>Sidenav Push Example</h2>
+  <p>Click on the element below to open the side navigation menu, and push this content to the right.</p>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+</div> -->
+
+
+<div style="width:60%;height:200px;margin: 0 auto">
+<p><center>
+<img src="AboutMe.png" height="50%" width="50%"></p></center>
+<!-- <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span> -->
+</div>
+
+<div style="width:60%;height:300px;border-radius:80px;margin: 0 auto">
+<table align="center" >
+<tr>
+
+<td class="data" colspan="2 " ><b> Enthusiastic learner, intend to build career in IT field with leading firm that helps  me nurture my abilities and gives me a  chance to deploy my skills and set new altitudes for myself</b><br><br>
+
+ <B><u>Email</u>   : sakshivyas216@gmail.com<br>
+ <u>Phone</u>     : 8889941116<br>
+ <u>Address</u> : Anoop Nagar,Indore</b><br> 
+<td> <img class="i" src="sakshi.jpeg" height="25%"  width=" 110%" alt="avatar"></td>
+</tr>
+<tr>
+<td>
+<a href="www.linkedin.com/in/sakshi-vyas-3b167b1b0" class="fa fa-linkedin"></a>  
+ <a href="github.com/SakShi210600" class="fa fa-github"></a>
+  <a href="https://instagram.com/sakshi_._vyas?igshid=a38l92ucjzqy" class="fa fa-instagram"></a>
+</td>
+
+
+</tr>
+
+</table>
+
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft= "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+</body>
+</html> 
